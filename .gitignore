@@ -2,3 +2,4 @@ lab_01/
 __pycache__/
 .pytest_cache/
 pytest-report.xml
+.DS_Store

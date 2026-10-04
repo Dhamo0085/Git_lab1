@@ -16,7 +16,7 @@ def test_fun4():
 @pytest.mark.parametrize("x, y, expected", [
     (0, 0, 0),
     (1, 1, 3),
-    (-1, 1, -1),
+    (-1, 1, -3),
 ])
 def test_fun4_parametrized(x, y, expected):
     assert fun4(x, y) == expected
